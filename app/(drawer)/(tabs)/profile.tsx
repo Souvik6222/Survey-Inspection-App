@@ -29,9 +29,9 @@ export default function ProfileScreen() {
       {/* Header section with avatar */}
       <View style={styles.header}>
         <View style={[styles.avatar, { backgroundColor: activeColors.primary }]}>
-          <Text style={[styles.avatarText, { color: activeColors.onPrimary }]}>AS</Text>
+          <Text style={[styles.avatarText, { color: activeColors.onPrimary }]}>SB</Text>
         </View>
-        <Text style={[styles.name, { color: activeColors.text }]}>Atul Singh</Text>
+        <Text style={[styles.name, { color: activeColors.text }]}>Souvik Biswas</Text>
         <Text style={[styles.role, { color: activeColors.muted }]}>Senior Field Inspector</Text>
       </View>
 
